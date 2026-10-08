@@ -1,0 +1,22 @@
+{
+  "name": "orderpulse-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A local e-commerce operations demo with React, Express, and Python analytics.",
+  "workspaces": [
+    "apps/web",
+    "apps/api"
+  ],
+  "engines": {
+    "node": ">=24 <25",
+    "npm": ">=11 <12"
+  },
+  "scripts": {
+    "dev:web": "npm run dev --workspace @orderpulse/web",
+    "dev:api": "npm run dev --workspace @orderpulse/api",
+    "build": "npm run build --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "npm run test --workspace @orderpulse/api",
+    "test:api": "npm run test --workspace @orderpulse/api"
+  }
+}

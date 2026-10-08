@@ -1,0 +1,18 @@
+# Generated from pip 25.2 --dry-run --ignore-installed --only-binary=:all:.
+# Target: CPython 3.13, macOS arm64. This is a pinned resolution snapshot.
+# Direct packages: fastapi, pydantic, uvicorn. Remaining packages are transitive.
+# No packages were installed, imported, or built during resolution.
+annotated-doc==0.0.5
+annotated-types==0.8.0
+anyio==4.15.1
+click==8.5.0
+fastapi==0.142.4
+h11==0.16.0
+idna==3.20
+opentelemetry-api==1.45.1
+pydantic==2.13.5
+pydantic_core==2.46.5
+starlette==1.7.0
+typing-inspection==0.4.4
+typing_extensions==4.16.0
+uvicorn==0.54.0
