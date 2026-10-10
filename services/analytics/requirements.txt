@@ -1,15 +1,20 @@
 # Generated from pip 25.2 --dry-run --ignore-installed --only-binary=:all:.
 # Target: CPython 3.13, macOS arm64. This is a pinned resolution snapshot.
-# Direct packages: fastapi, pydantic, uvicorn. Remaining packages are transitive.
+# Direct packages: fastapi, pydantic, uvicorn, deepdiff, Jinja2. Remaining packages are transitive.
 # No packages were installed, imported, or built during resolution.
+# Manifest-only CVE demo: do not install or execute this dependency snapshot.
 annotated-doc==0.0.5
 annotated-types==0.8.0
 anyio==4.15.1
 click==8.5.0
+deepdiff==8.6.0
 fastapi==0.142.4
 h11==0.16.0
 idna==3.20
+Jinja2==3.1.5
+MarkupSafe==3.0.4
 opentelemetry-api==1.45.1
+orderly-set==5.5.0
 pydantic==2.13.5
 pydantic_core==2.46.5
 starlette==1.7.0

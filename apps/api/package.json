@@ -13,7 +13,9 @@
   "dependencies": {
     "express": "5.2.1",
     "zod": "4.6.5",
-    "cors": "2.8.6"
+    "cors": "2.8.6",
+    "jsonpath-plus": "10.1.0",
+    "ws": "8.20.1"
   },
   "devDependencies": {
     "typescript": "7.0.2",

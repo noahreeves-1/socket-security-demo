@@ -3,7 +3,11 @@
 A small, local e-commerce operations dashboard built with React/TypeScript, Express/TypeScript, and Python/FastAPI.
 It contains 30 fictional orders, interactive status updates, and analytics calculated by a separate Python service.
 The npm workspaces and pinned Python requirements are ready for separate dependency review.
-No Socket integration, security scan, database, authentication, Docker, CI, or payment processing is included.
+The application includes no database, authentication, Docker, CI, or payment processing.
+
+**Manifest-only CVE demo:** `demo/backend-known-cves` intentionally declares vulnerable backend dependencies.
+Do not install its dependency snapshots or execute its application, build, or dependency-based test commands.
+The original application baseline is preserved on `main` at `f5136bd`.
 
 ## Review boundary
 
