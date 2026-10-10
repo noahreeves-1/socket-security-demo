@@ -18,3 +18,4 @@ htmlcov/
 .DS_Store
 test-results/
 playwright-report/
+docs/
